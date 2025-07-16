@@ -2,7 +2,7 @@
 
 namespace eshift.model
 {
-    internal class User
+    internal class User : SuperModel
     {
         private int _id;
         private string _username;
@@ -11,8 +11,6 @@ namespace eshift.model
         private string _firstName;
         private string _lastName;
         private string _phone;
-        private int _createdBy;
-        private DateTime _createdAt;
         private Role _role;
         private UserStatus _status;
 
@@ -21,8 +19,7 @@ namespace eshift.model
         }
 
         public User(int id, string username, string email, string password, string firstName,
-                    string lastName, string phone, int createdBy, DateTime createdAt,
-                    Role role, UserStatus status)
+                    string lastName, string phone, Role role, UserStatus status, DateTime updatedAt, User updatedBy, DateTime createdAt, User createdBy) : base(createdBy, createdAt, updatedBy, updatedAt)
         {
             _id = id;
             _username = username;
@@ -31,8 +28,6 @@ namespace eshift.model
             _firstName = firstName;
             _lastName = lastName;
             _phone = phone;
-            _createdBy = createdBy;
-            _createdAt = createdAt;
             _role = role;
             _status = status;
         }
@@ -77,18 +72,6 @@ namespace eshift.model
         {
             get { return _phone; }
             set { _phone = value; }
-        }
-
-        public int CreatedBy
-        {
-            get { return _createdBy; }
-            set { _createdBy = value; }
-        }
-
-        public DateTime CreatedAt
-        {
-            get { return _createdAt; }
-            set { _createdAt = value; }
         }
 
         public Role Role
