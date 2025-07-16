@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace eshift.utils.enums.extensions
+﻿namespace eshift.utils.enums.extensions
 {
     internal static class LoadStatusExtensions
     {

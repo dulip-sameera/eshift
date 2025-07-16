@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace eshift.utils.enums
+﻿namespace eshift.utils.enums
 {
     internal enum LoadStatus
     {

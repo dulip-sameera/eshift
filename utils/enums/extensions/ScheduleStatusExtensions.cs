@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eshift.utils.enums.extensions
+﻿namespace eshift.utils.enums.extensions
 {
     internal static class ScheduleStatusExtensions
     {
