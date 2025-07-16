@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eshift")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d0fa8f4ebc867ca30d65d74ce812f7d8b15f757")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac67e9403d11c1b1d6dede47a07ca2552a68f749")]
 [assembly: System.Reflection.AssemblyProductAttribute("eshift")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eshift")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

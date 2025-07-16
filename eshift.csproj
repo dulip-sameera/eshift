@@ -9,12 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="controller\" />
-    <Folder Include="dao\" />
-    <Folder Include="dto\" />
     <Folder Include="model\" />
-    <Folder Include="database\" />
-    <Folder Include="utils\" />
   </ItemGroup>
 
 </Project>
