@@ -1,3 +1,5 @@
+using eshift.database;
+using eshift.model;
 using eshift.utils.enums;
 
 namespace eshift
@@ -14,6 +16,8 @@ namespace eshift
             // see https://aka.ms/applicationconfiguration
             ApplicationConfiguration.Initialize();
             Application.Run(new mainForm());
+
+
         }
     }
 }
